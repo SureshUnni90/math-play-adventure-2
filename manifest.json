@@ -1,0 +1,23 @@
+
+{
+  "short_name": "MathPlay",
+  "name": "Math Play Adventure",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3075/3075314.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3075/3075314.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "./",
+  "background_color": "#f0f9ff",
+  "display": "standalone",
+  "scope": "./",
+  "theme_color": "#4ECDC4",
+  "description": "Fun math games for kids aged 6!"
+}
