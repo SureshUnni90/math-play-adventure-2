@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { ChevronLeft, Star, RefreshCw } from 'lucide-react';
-import { GameType, UserProgress, GameQuestion } from '../types.ts';
+import { GameType, UserProgress, GameQuestion } from './types.ts';
 
 interface GameViewProps {
   progress: UserProgress;
