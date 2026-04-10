@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { HashRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
 import { UserProgress, GameType } from './types.ts';
-import LandingPage from './components/LandingPage.tsx';
-import GameView from './components/GameView.tsx';
-import ParentDashboard from './components/ParentDashboard.tsx';
-import RewardCelebration from './components/RewardCelebration.tsx';
+import LandingPage from './LandingPage.tsx';
+import GameView from './GameView.tsx';
+import ParentDashboard from './ParentDashboard.tsx';
+import RewardCelebration from './RewardCelebration.tsx';
 
 const REWARDS = [
   { name: 'Blue Speed Bike', icon: '🚲' },

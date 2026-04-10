@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { GameType, UserProgress } from '../types.ts';
-import { GAME_ICONS } from '../constants.tsx';
+import { GameType, UserProgress } from './types.ts';
+import { GAME_ICONS } from './constants.tsx';
 import { Star, Trophy, Users, Package, X } from 'lucide-react';
 
 interface LandingPageProps {

@@ -2,8 +2,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ChevronLeft, Trophy, TrendingUp, Package } from 'lucide-react';
-import { UserProgress, GameType } from '../types.ts';
-import { BADGES, COLORS } from '../constants.tsx';
+import { UserProgress, GameType } from './types.ts';
+import { BADGES, COLORS } from './constants.tsx';
 import { 
   BarChart, 
   Bar, 
